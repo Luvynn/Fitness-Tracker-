@@ -4,8 +4,8 @@ import java.util.*;
  * The Member class is a subclass of Person. It stores fields and methods which are only
  * used when logging into the app as a Member.
  *
- * @author Tony Naughton
- * @version 1.0 (06.Jun.2020)
+ * @author Luvyn Sequeira
+ * @version 1.0 (03.Jan.2025)
  */
 
 public class Member extends Person {
@@ -14,16 +14,16 @@ public class Member extends Person {
     private String chosenPackage;
     public HashMap <String, Assessment> assessments;
 
-    /**
-     * Constructor for Member class
+ /**
+     * Constructor for Member class.
      *
-     * @param email Member's email address
-     * @param name Member's name
-     * @param address Member's address
-     * @param gender Member's gender
-     * @param height Member's height
-     * @param startingWeight Member's starting weight
-     * @param chosenPackage Member's chosen package
+     * @param email          Member's email address.
+     * @param name           Member's name.
+     * @param address        Member's address.
+     * @param gender         Member's gender.
+     * @param height         Member's height.
+     * @param startingWeight Member's starting weight.
+     * @param chosenPackage  Member's chosen package.
      */
     public Member(String email, String name, String address,
                   String gender, float height, float startingWeight, String chosenPackage) {
@@ -31,7 +31,7 @@ public class Member extends Person {
         setHeight(height);
         setStartWeight(startingWeight);
         setChosenPackage(chosenPackage);
-        //Setting assessments field to a new HashMap
+        //Setting assessments field to a new HashMap.
         assessments = (new HashMap<String, Assessment>());
     }
 
@@ -41,7 +41,7 @@ public class Member extends Person {
      * @return Returns Assessment object which is latest Assessment carried out on the Member
      */
     public Assessment latestAssessment() {
-        //Using SortedSet to get the assessment dates in chronological order
+        //Using SortedSet to get the assessment dates in chronological order.
         SortedSet<String> sortedAssessments = sortedAssessmentDates();
         Assessment result = null;
         if (!sortedAssessments.isEmpty()) {

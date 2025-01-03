@@ -1,8 +1,8 @@
 /**
  * The GymUtility class is used to store static methods which can be used by other applications.
  *
- * @author Tony Naughton
- * @version 1.0 (06.Jun.2020)
+ * @author Luvyn Sequeira
+ * @version 1.0 (03.Jan.2025)
  */
 public class GymUtility {
 

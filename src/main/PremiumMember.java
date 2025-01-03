@@ -1,8 +1,8 @@
 /**
  * The PremiumMember class is a subclass of Member and is intended to be used by Premium Members of the gym.
  *
- * @author Tony Naughton
- * @version 1.0 (06.Jun.2020)
+ * @author Luvyn Sequeira
+ * @version 1.0 (03.Jan.2025)
  */
 public class PremiumMember extends Member  {
 

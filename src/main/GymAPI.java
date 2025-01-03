@@ -14,8 +14,8 @@ import java.util.TreeMap;
  * The class also contains various methods which act on the data stored
  * in the lists of members and trainers.
  *
- * @author Tony Naughton
- * @version 1.0
+ * @author Luvyn Sequeira
+ * @version 1.0 (03.Jan.2025)
  */
 
 public class GymAPI {

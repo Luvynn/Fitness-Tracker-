@@ -1,12 +1,12 @@
 import java.util.*;
 import java.text.SimpleDateFormat;
 
-/**
+=/**
  * The MenuController class is used to handle inputs/outputs and display menus to the user.
  * Essentially, the MenuController is the 'Driver' of the application which brings all the classes and methods together.
  *
- * @author Tony Naughton
- * @version 1.0 (06.Jun.2020)
+ * @author Luvyn Sequeira
+ * @version 1.0 (03.Jan.2025)
  */
 
 public class MenuController {

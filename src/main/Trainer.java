@@ -1,8 +1,8 @@
 /**
  * The Trainer class is a subclass of Person and is used by Trainers when accessing the application.
  *
- * @author Tony Naughton
- * @version 1.0 (06.Jun.2020)
+ * @author Luvyn Sequeira
+ * @version 1.0 (03.Jan.2025)
  */
 
 public class Trainer extends Person {

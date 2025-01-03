@@ -2,10 +2,9 @@
  * The Person class is the super class of all users at the gym. Common fields among all users of the gym are stored here:
  * 'name', 'email', 'address' and 'gender'.
  *
- * @author Tony Naughton
- * @version 1.0 (06.Jun.2020)
+ * @author Luvyn Sequeira
+ * @version 1.0 (03.Jan.2025)
  */
-
 public class Person {
     private String name;
     private String email;
