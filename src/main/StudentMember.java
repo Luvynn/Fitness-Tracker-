@@ -1,9 +1,10 @@
 /**
- * The StudentMember class is a subclass of Member and is intended to be used by Student Members of the gym.
- * Student Members have two extra fields from a standard Member: 'studentId' and 'collegeName'.
+ * The PremiumMember class extends the Member class.
+ * This class is specifically designed for Premium Members of the gym,
+ * providing functionalities to manage their specific attributes and behaviors.
  *
- * @author Tony Naughton
- * @version 1.0 (06.Jun.2020)
+ * @author Luvyn Sequeira
+ * @version 1.0 (03.Jan.2025)
  */
 
 public class StudentMember extends Member  {
